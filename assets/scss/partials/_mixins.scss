@@ -1,0 +1,6 @@
+
+@mixin colors {
+    @for $i from 1 through $repeat {
+        background: nth($colors, random(length($colors)));
+    }   
+}
